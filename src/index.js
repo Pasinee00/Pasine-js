@@ -1,12 +1,5 @@
-//function add(a, b) {
-// return a + b;
-//}
-const add = (a, b) => a + b;
-
-// const add = (a, b) => {
-//   return a + b;
-// }
-
-// const add = (a, b) => a + b
-
-console.log(add(1, 2));
+const user = "A-Host";
+const message1 = "Hello, " + user;
+const message2 = `Hello, ${user} Pasinee`;
+console.log(message1);
+console.log(message2);
